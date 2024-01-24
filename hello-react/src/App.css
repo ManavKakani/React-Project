@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.flex{
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.user-item{
+  background-color: #909090;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 22px;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.active{
+  background-color: green;
+}
+
+.non-active{
+  background-color: red;
+}
+.color{
+  color: red;
+}
